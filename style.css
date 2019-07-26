@@ -1,33 +1,65 @@
 header {
+    width: 900px;
+    margin: auto;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+body {
+    width: 915px;
+    margin: auto;
+}
+
+.stripes {
+background: repeating-linear-gradient(
+    45deg,
+    white 10px,
+  black 10px,
 
 }
 
 .title {
     display: flex;
+    flex-direction: row;
+}
 
+.title > img {
+
+}
+
+.post-date {
+    font-family: 'Rajdhani', sans-serif;
 }
 
 .blog-name {
-    display: flex;
-    flex-direction: column;
-    margin: 0px;
+    display: flex;   
+    flex-direction: column; 
 }
 
 h1 {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
     margin: 0px;
-    fon
+    font-size: 20px;
 }
 
 h2 {
+    font-family: 'Rajdhani', sans-serif;
     margin: 0px;
+    font-size: 10px;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
 
 .social-top {
     display: flex;
-    
+    justify-content: flex-end;
 }
 
 .old-school {
-    margin-right: 20px;
+
 }
