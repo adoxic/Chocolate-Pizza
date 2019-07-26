@@ -10,25 +10,45 @@ body {
     width: 915px;
     margin: auto;
 }
-
-
+.text-print {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.stripes {
+    margin-top: 30px;
+    height: 15px;
+background-image: linear-gradient(45deg, #000000 8.33%, #ffffff 8.33%, #ffffff 50%, #000000 50%, #000000 58.33%, #ffffff 58.33%, #ffffff 100%);
+background-size: 8.49px 8.49px;
+}
 
 .title {
     display: flex;
     flex-direction: row;
 }
 
-.title > img {
-
-}
 
 .post-date {
+    margin: 0px;
     font-family: 'Rajdhani', sans-serif;
+}
+
+.print {
+    margin-left: 840px;
+    height: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+
 }
 
 .blog-name {
     display: flex;   
     flex-direction: column; 
+}
+
+.print-text {
+    display: flex;
+   flex-direction: row;
+   align-self: center;
 }
 
 h1 {
@@ -45,6 +65,8 @@ h2 {
 }
 
 h3 {
+    margin-top: 25px;
+    margin-bottom: 0px;
     font-family: 'Anton', sans-serif;
     font-size: 30px;
 }
