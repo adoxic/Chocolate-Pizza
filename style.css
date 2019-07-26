@@ -10,22 +10,61 @@ body {
     width: 915px;
     margin: auto;
 }
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    margin: 0px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Rajdhani', sans-serif;
+    margin: 0px;
+    font-size: 2rem;
+}
+
+h3 {
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+}
+
+button {
+    height: 50px;
+    background-color: maroon;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    
+}
+
+li {
+    list-style: none;
+}
+
 .text-print {
     margin: 0px;
     margin-bottom: 10px;
 }
+
 .stripes {
     margin-top: 30px;
     height: 15px;
-background-image: linear-gradient(45deg, #000000 8.33%, #ffffff 8.33%, #ffffff 50%, #000000 50%, #000000 58.33%, #ffffff 58.33%, #ffffff 100%);
-background-size: 8.49px 8.49px;
+    background-image: linear-gradient(45deg, #000000 8.33%, #ffffff 8.33%, #ffffff 50%, #000000 50%, #000000 58.33%, #ffffff 58.33%, #ffffff 100%);
+    background-size: 8.49px 8.49px;
 }
 
 .title {
     display: flex;
     flex-direction: row;
 }
-
 
 .post-date {
     margin: 0px;
@@ -51,34 +90,29 @@ background-size: 8.49px 8.49px;
    align-self: center;
 }
 
-h1 {
+.recipe {
+    background-image: url("./assets/list-bg.png");
+    display: flex;
+    justify-content: space-evenly;
     font-family: 'Pacifico', cursive;
-    font-style: italic;
-    margin: 0px;
-    font-size: 20px;
 }
 
-h2 {
+.sub-title {
     font-family: 'Rajdhani', sans-serif;
     margin: 0px;
+    margin-left: 10px;
     font-size: 10px;
 }
 
-h3 {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    font-family: 'Anton', sans-serif;
-    font-size: 30px;
+.about-author-text {
+    width: 500px;
+    margin-left: 10px;
 }
 
 .social-top {
+    margin-top: 15px;
     display: flex;
     justify-content: flex-end;
-}
-
-.old-school {
-
-    margin-right: 20px;
 }
 
 .about-author {
@@ -100,11 +134,6 @@ h3 {
     flex-direction: row;
 }
 
-button {
-    height: 50px;
-    background-color: maroon;
-    color: white;
-}
 .horizontal-breaks {
     display: flex;
 }
@@ -113,8 +142,8 @@ button {
     width: 45%;
     height: 1px;
 }
-footer {
-    text-align: center;
-    color: gray;
 
+.main-text {
+    text-indent: 40px;
+    line-height: 25px;
 }
