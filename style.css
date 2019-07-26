@@ -31,3 +31,40 @@ h2 {
 .old-school {
     margin-right: 20px;
 }
+
+.about-author {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+.van-pic {
+    height: 100%;
+}
+
+.about-author-text {
+    width: 500px;
+}
+
+.author-text-and-image {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    height: 50px;
+    background-color: maroon;
+    color: white;
+}
+.horizontal-breaks {
+    display: flex;
+}
+
+.footer-break {
+    width: 45%;
+    height: 1px;
+}
+footer {
+    text-align: center;
+    color: gray;
+}
